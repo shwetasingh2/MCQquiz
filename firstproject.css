@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cursive;
+    font-weight: 300;
+}
+html{
+    font-size: 95%;
+}
+body{
+    background-image: url(./image/Background.jpg);
+    backdrop-filter: blur(8px);
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.inner-div{
+background-image: url(./image/home-banner.png);
+height: 400px;
+width: 600px;
+border-radius: 30px;
+box-shadow: 30px 20px 50px 15px black;
+position: relative;
+}  
+ul{
+    list-style-type: none;
+}
+.question{
+    text-align: center;
+    padding-top: 60px;
+    /* position: absolute;
+    left: 25%;
+    top: 20%; */
+}
+.mylist{
+    position: absolute;
+    left: 18%;
+    top: 30%;
+    font-size: 15px;
+}
+.mylist li:hover{
+    color: red;
+    transform: translate(5px);
+    font-weight: bold;
+}
+#submit, .btn{
+     position: absolute;
+    left: 18%;
+    top: 63%;
+    color: white; 
+    background-color: transparent;
+    color: red;
+    font-size: 17px;
+    border-color: red;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+    border: white;
+}
+
+.mylist li{
+    padding-top: 10px;
+}
+
+.scoreArea{
+    display: none;
+}
+
+#showScore h3{
+    color: red;
+    margin-top: 190px;
+    font-size: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+#showScore .btn{
+    margin-top: 100px;
+    margin-left: 138px;
+    background-color: transparent;
+    color: red;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#showScore .btn:hover{
+    background-color: black;
+    color: white;
+    border: white;
+    cursor: pointer;
+}
